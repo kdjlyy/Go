@@ -1,4 +1,4 @@
 # Go 💦💦💦
 ---
 ## 目录
-RPC(/rpc/README.md)
+[RPC](/rpc/README.md)
