@@ -21,6 +21,8 @@ type Params struct {
 	Width, Height int
 }
 
+// 服务器端需要注册结构体对象，然后通过对象所属的方法暴露给调用者，从而提供服务，
+// 该方法称之为输出方法，此输出方法可以被远程调用
 type Rect struct{}
 
 // RPC服务端方法，求矩形面积
@@ -50,3 +52,4 @@ func main() {
 		log.Panicln(err)
 	}
 }
+
